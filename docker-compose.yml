@@ -13,7 +13,6 @@ services:
       - DB_PASSWORD=bn_password  
     volumes:
       - ./my-project:/app
-      - ./my-project/vendor:/app/vendor
     networks:
       database-net:
           ipv4_address: 172.21.21.10     
